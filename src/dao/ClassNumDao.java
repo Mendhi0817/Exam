@@ -1,3 +1,5 @@
+//松下が持ってきたコードです
+
 package dao;
 
 import java.sql.Connection;
