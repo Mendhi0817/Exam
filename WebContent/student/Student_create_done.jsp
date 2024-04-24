@@ -43,7 +43,7 @@ try {
 		out.println("追加に成功しました。");
 	}
 
-	//afads
+
 
 	st.close();
 	con.close();
