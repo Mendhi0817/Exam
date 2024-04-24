@@ -1,7 +1,5 @@
 package scoremanager.main;
 
-import java.sql.ResultSet;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -29,7 +27,6 @@ public class StudentListAction extends Action {
 		int entYear = 0;
 		boolean isAttend = false;
 		List<Student> students = null;
-		LocalDate todaysDate = LocalDate.now();
 		StudentDao sDao = new StudentDao();
 		ClassNumDao cNumDao = new ClassNumDao();
 		Map<String, String> errors = new HashMap<>();
@@ -87,46 +84,7 @@ public class StudentListAction extends Action {
 
 		request.getRequestDispatcher("student_manage.jsp");
 
-		String baseSql = "select * from student where school_cd=?";
-
-
-		private List<Student> postFilter(ResultSet rSet,School school)throws Exceptopn{
-			List<Student> list = new ArrayList<>();
-
-			try {
-				while (rSet.next()) {
-					Student student = new Student();
-
-					student.setNo(rSet.getString("no"));
-					student.setName(rSet.getString("name"));
-					student.setEntYear(rSet.getInt("ent_year"));
-					student.setClassNum(rSet.getString("class_num"));
-					student.setSchool(school);
-
-					list.add(student);
-				}
-
-				}catch(SQLException | NullPointerException e){
-
-					e.printStackTrace();
-				}
-
-			return list;
-			}
-
-
-		public List<Student> filter(School school, int entYear, String classNum, boolean isAttend)throws Exception{
-
-			List<Student> list = new ArrayList<>();
-
-			Connection connection = getConnection();
-
-
-
 		}
-
-
-	}
 
 
 
