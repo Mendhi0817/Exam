@@ -24,7 +24,7 @@ public class StudentListAction extends Action {
 		String entYearStr="";//入学年度
 		String classNum = "";//クラス
 		String isAttendStr = "";//在学フラグ
-		int entYear = 0;
+		int entYear  = 0;
 		boolean isAttend = false;
 		List<Student> students = null;
 		StudentDao sDao = new StudentDao();

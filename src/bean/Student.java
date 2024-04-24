@@ -34,7 +34,7 @@ public class Student {
 	}
 
 	public String getClassNum(){
-		return classNum;
+		return classNum ;
 
 	}
 
