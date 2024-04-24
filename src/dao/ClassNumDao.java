@@ -12,4 +12,4 @@ public class ClassNumDao {
 	}
 
 }
-//aaaaあ
+//aaaa
