@@ -33,8 +33,8 @@ public class Student {
 		this.entYear = entYear;
 	}
 
-	public String getclassNum(){
-		return classNum;
+	public String getClassNum(){
+		return classNum ;
 
 	}
 

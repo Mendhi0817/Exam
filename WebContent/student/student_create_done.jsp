@@ -43,6 +43,8 @@ try {
 		out.println("追加に成功しました。");
 	}
 
+
+
 	st.close();
 	con.close();
 } catch (Exception e) {
