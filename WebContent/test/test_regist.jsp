@@ -69,43 +69,6 @@
 	<div class = "mt-2 text-warning">${errors.get("f1")}</div>
 
 	</form>
-
-	<c:choose>
-		<c:when test="${students.size()>0}">
-		<table class = "table table-hover">
-				<tr>
-					<th>入学年度</th>
-					<th>クラス</th>
-					<th>科目</th>
-					<th>回数</th>
-
-				</tr>
-				<c:forEach var = "student" items = "${students}">
-					<tr>
-						<td>${student.entYear}</td>
-						<td>${student.classNum}</td>
-						<td>${student.subjectCd}</td>
-						<td>${student.num}</td>
-						<td class = "text-center">
-							<c:choose>
-								<c:when test = "${student.isAttend()}">
-									〇
-								</c:when>
-								<c:otherwise>
-									×
-								</c:otherwise>
-
-							</c:choose>
-						</td>
-
-
-
-					</tr>
-				</c:forEach>
-			</table>
-		</c:when>
-	</c:choose>
-
 	</section>
 	</c:param>
 </c:import>
