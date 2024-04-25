@@ -6,7 +6,7 @@ public class TestListSubjectDao extends User implements Serializable {
 
 	private String baseSql;
 
-	public String getbaceSql(){
+	public String getBaceSql(){
 		return baseSql;
 	}
 	public void setBaceSql(String baseSql){
