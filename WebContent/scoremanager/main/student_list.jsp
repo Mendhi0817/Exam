@@ -1,13 +1,5 @@
 <%--学生一覧--%>
-<%@page contentType="text/html; charset=UTF-8" %>
-<%@ page import = "java.io.PrintWriter"%>
-<%@ page import = "java.sql.PreparedStatement"%>
-<%@ page import = "java.sql.Connection" %>
-<%@ page import = "java.sql.ResultSet" %>
-<%@ page import = "tool.Page" %>
-<%@ page import = "javax.naming.InitialContext" %>
-<%@ page import = "javax.sql.DataSource" %>
-<%@include file="../header.html" %>
+
 
 <%@taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <c:import url = "/common/base.jsp">
