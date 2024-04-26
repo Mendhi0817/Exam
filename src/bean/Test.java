@@ -11,12 +11,16 @@ public class Test extends User implements Serializable  {
 	private int no;
 	private int point;
 
+
+
 	public Student getstudent(){
 		return student;
 	}
 	public void setStudent(Student student){
 		this.student = student;
 	}
+
+
 
 	public String getclassNum(){
 		return classNum;
@@ -25,12 +29,16 @@ public class Test extends User implements Serializable  {
 		this.classNum = classNum;
 	}
 
+
+
 	public Subject getsubject(){
 		return subject;
 	}
 	public void setSubject(Subject subject){
 		this.subject = subject;
 	}
+
+
 
 	public School getSchool(){
 		return school;
@@ -39,12 +47,16 @@ public class Test extends User implements Serializable  {
 		this.school = school;
 	}
 
+
+
 	public int getno(){
 		return no;
 	}
 	public void setNo(int no){
 		this.no = no;
 	}
+
+
 
 	public int getpoint(){
 		return point;

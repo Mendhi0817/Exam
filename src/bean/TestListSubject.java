@@ -11,12 +11,16 @@ public class TestListSubject extends User implements Serializable {
 	private String classNum;
 	private Map<Integer,Integer> points;
 
+
+
 	public int getEntYear(){
 		return entYear;
 	}
 	public void setEntYear(int entYear){
 		this.entYear = entYear;
 	}
+
+
 
 	public String getStudentNo(){
 		return studentNo;
@@ -25,6 +29,8 @@ public class TestListSubject extends User implements Serializable {
 		this.studentNo = studentNo;
 	}
 
+
+
 	public String getStudentName(){
 		return studentName;
 	}
@@ -32,12 +38,16 @@ public class TestListSubject extends User implements Serializable {
 		this.studentName = studentName;
 	}
 
+
+
 	public String getClassNum(){
 		return classNum;
 	}
 	public void setClassNum(String classNum){
 		this.classNum = classNum;
 	}
+
+
 
 	public Map<Integer,Integer> getPoints(){
 		return points;

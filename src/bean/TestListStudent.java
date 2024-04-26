@@ -9,12 +9,16 @@ public class TestListStudent extends User implements Serializable {
 	private int num;
 	private int point;
 
+
+
 	public String getSubjectName(){
 		return subjectName;
 	}
 	public void setSubjectName(String subjectName){
 		this.subjectName = subjectName;
 	}
+
+
 
 	public String getSubjectCd(){
 		return subjectCd;
@@ -23,12 +27,16 @@ public class TestListStudent extends User implements Serializable {
 		this.subjectCd = subjectCd;
 	}
 
+
+
 	public int getNum(){
 		return num;
 	}
 	public void setNum(int num){
 		this.num = num;
 	}
+
+
 
 	public int getPoint(){
 		return point;

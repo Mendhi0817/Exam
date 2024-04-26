@@ -6,6 +6,8 @@ public class TestListStudentDao extends User implements Serializable {
 
 	private String baseSql;
 
+
+
 	public String getbaceSql(){
 		return baseSql;
 	}
