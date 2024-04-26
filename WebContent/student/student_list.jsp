@@ -64,7 +64,7 @@
 	</div>
 
 	<div class = "col-2 form-cehck text-center">
-		<label class = "form-check-label" for = student-f3-check">在学中
+		<label class = "form-check-label" for = "student-f3-check">在学中
 			<input class = "form-check-input" type = "checkbox" <c:if test = "${!empty f3 }">checked</c:if>/>
 			</label>
 
