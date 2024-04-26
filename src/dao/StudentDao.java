@@ -16,6 +16,7 @@ public class StudentDao extends Dao {
 
     private String baseSql = "select * from student where school_cd=?";
 
+
     public Student get(String no) throws Exception {
 
 		Student student =new Student();

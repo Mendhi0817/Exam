@@ -82,7 +82,7 @@ public class StudentListAction extends Action {
 
 		request.setAttribute("ent_year_set",entYearSet);
 
-		request.getRequestDispatcher("student_manage.jsp");
+		request.getRequestDispatcher("student_list.jsp").forward(request, response);
 
 		}
 
