@@ -24,7 +24,9 @@ public class Dao {
 			InitialContext ic = new InitialContext();
 			// データベースへ接続
 			ds = (DataSource) ic.lookup("java:/comp/env/jdbc/exam");
+
 		}
+
 		// データベースへのコネクションを返却
 		return ds.getConnection();
 	}
